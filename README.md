@@ -32,3 +32,23 @@ Dataset Source: [Telco Customer Churn - Kaggle](https://www.kaggle.com/datasets/
   - `MonthlyCharges`
   - `PaymentMethod`
 - Visualized feature importances using bar plots for stakeholder-friendly interpretation.
+
+
+## 🧰 Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| `Python` | Core development |
+| `pandas`, `numpy` | Data manipulation |
+| `scikit-learn` | Model building |
+| `SHAP` | Model explainability |
+| `matplotlib`, `seaborn` | EDA visualizations |
+| `Streamlit` | App deployment |
+| `GitHub` | Source control |
+| `Kaggle` | Dataset source |
+
+
+🤝 Collaboration & Feedback
+Interested in collaborating? Found a bug? Want to reuse the pipeline?
+
+📬 Reach out on [Linkedin](https://www.linkedin.com/in/oluwatosin-oyeladun-234a8a42/) or open an issue on this repo.
