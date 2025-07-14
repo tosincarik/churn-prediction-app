@@ -8,16 +8,21 @@ Data Used
 The dataset includes customer demographics, services subscribed, account information, and churn status. It has been preprocessed for missing values, categorical encoding, and feature scaling.
 Dataset Source: [Telco Customer Churn - Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
+Data and Ethics
+Dataset Origin:
+This project uses the publicly available Telco Customer Churn dataset sourced from Kaggle / IBM Sample Data. The dataset contains customer demographic information, service subscriptions, account details, and churn labels.
+
+
+Potential Biases:
+The dataset may contain biases based on demographics or regional customer characteristics, which could impact model fairness.
+Model predictions are only as good as the data provided; unobserved factors or changes over time may affect accuracy.
+The model should not be used as the sole basis for critical decisions without human oversight.
 
 Methodology Overview
 Data Preprocessing: Handling missing data, encoding categorical variables, scaling numerical features.
-
 Model Training: Implemented Random Forest and Logistic Regression models.
-
 Model Evaluation: Used accuracy, precision, recall, F1-score, and ROC-AUC to evaluate performance.
-
 Interpretability: Applied SHAP (SHapley Additive exPlanations) to explain feature impact on predictions.
-
 Deployment: Developed an interactive Streamlit app for live customer churn prediction based on user inputs.
 
 Live App: [Churn Prediction Streamlit App](https://churn-prediction-app-3rdtimeacharm.streamlit.app/)  
