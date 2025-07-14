@@ -5,6 +5,11 @@
 Customer churn prediction is a crucial business problem where companies identify customers likely to stop using their services. Accurate churn prediction helps businesses proactively retain customers, reduce revenue loss, and optimize marketing efforts.
 This app uses a publicly available Telco customer dataset to predict customer churn using machine learning models. It benefits data scientists, business analysts, and stakeholders interested in understanding customer behavior and building actionable predictive tools.
 
+## App Preview
+
+Here is a screenshot of the app interface:
+
+![App Screenshot](churn1.png)
 
 Data and Ethics
 The dataset includes customer demographics, services subscribed, account information, and churn status. It has been preprocessed for missing values, categorical encoding, and feature scaling.
