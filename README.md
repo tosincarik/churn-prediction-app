@@ -9,7 +9,7 @@ This app uses a publicly available Telco customer dataset to predict customer ch
 
 Here is a screenshot of the app interface:
 
-![App Screenshot](churn1.PNG)
+
 
 Data and Ethics
 The dataset includes customer demographics, services subscribed, account information, and churn status. It has been preprocessed for missing values, categorical encoding, and feature scaling.
@@ -33,7 +33,7 @@ Deployment: Developed an interactive Streamlit app for live customer churn predi
 Live App: [Churn Prediction Streamlit App](https://churn-prediction-app-3rdtimeacharm.streamlit.app/)  
 
 
-
+![App Screenshot](churn1.PNG)
 ## 🧪 ML Workflow
 
 ### 1. Data Preprocessing
