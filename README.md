@@ -1,7 +1,27 @@
 # 🧠 Telco Customer Churn Prediction App
 
-Live App: [Churn Prediction Streamlit App](https://churn-prediction-app-3rdtimeacharm.streamlit.app/)  
+
+Customer churn prediction is a crucial business problem where companies identify customers likely to stop using their services. Accurate churn prediction helps businesses proactively retain customers, reduce revenue loss, and optimize marketing efforts.
+This app uses a publicly available Telco customer dataset to predict customer churn using machine learning models. It benefits data scientists, business analysts, and stakeholders interested in understanding customer behavior and building actionable predictive tools.
+
+Data Used
+The dataset includes customer demographics, services subscribed, account information, and churn status. It has been preprocessed for missing values, categorical encoding, and feature scaling.
 Dataset Source: [Telco Customer Churn - Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+
+
+Methodology Overview
+Data Preprocessing: Handling missing data, encoding categorical variables, scaling numerical features.
+
+Model Training: Implemented Random Forest and Logistic Regression models.
+
+Model Evaluation: Used accuracy, precision, recall, F1-score, and ROC-AUC to evaluate performance.
+
+Interpretability: Applied SHAP (SHapley Additive exPlanations) to explain feature impact on predictions.
+
+Deployment: Developed an interactive Streamlit app for live customer churn prediction based on user inputs.
+
+Live App: [Churn Prediction Streamlit App](https://churn-prediction-app-3rdtimeacharm.streamlit.app/)  
+
 
 
 ## 🧪 ML Workflow
