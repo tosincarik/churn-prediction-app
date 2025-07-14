@@ -1,15 +1,15 @@
 # 🧠 Telco Customer Churn Prediction App
+👉 Live App: [Churn Prediction Streamlit App](https://churn-prediction-app-3rdtimeacharm.streamlit.app/)
 
 
 Customer churn prediction is a crucial business problem where companies identify customers likely to stop using their services. Accurate churn prediction helps businesses proactively retain customers, reduce revenue loss, and optimize marketing efforts.
 This app uses a publicly available Telco customer dataset to predict customer churn using machine learning models. It benefits data scientists, business analysts, and stakeholders interested in understanding customer behavior and building actionable predictive tools.
 
-Data Used
+
+Data and Ethics
 The dataset includes customer demographics, services subscribed, account information, and churn status. It has been preprocessed for missing values, categorical encoding, and feature scaling.
 Dataset Source: [Telco Customer Churn - Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
-Data and Ethics
-Dataset Origin:
 This project uses the publicly available Telco Customer Churn dataset sourced from Kaggle / IBM Sample Data. The dataset contains customer demographic information, service subscriptions, account details, and churn labels.
 
 
@@ -50,14 +50,26 @@ Live App: [Churn Prediction Streamlit App](https://churn-prediction-app-3rdtimea
 - Final model showed strong performance on unseen test data.
 
 ### 4. Feature Importance (Explainability)
-- Used the **feature importance** attribute of the Random Forest model to identify key drivers of churn.
-- Top contributing features included:
+Used the **feature importance** attribute of the Random Forest model to identify key drivers of churn.
+Top contributing features included:
   - `tenure`
   - `Contract`
   - `MonthlyCharges`
   - `PaymentMethod`
-- Visualized feature importances using bar plots for stakeholder-friendly interpretation.
+Visualized feature importances using bar plots for stakeholder-friendly interpretation. 
 
+### 5. Deployment Instructions
+
+#### Deploying on Streamlit Cloud
+
+1. Create an account at [Streamlit Cloud](https://streamlit.io/cloud).
+2. Connect your GitHub repository.
+3. Select the repo and branch containing your app.
+4. Specify the main script (e.g., `app.py`) to run.
+5. Streamlit Cloud will install dependencies from `requirements.txt` and deploy the app.
+6. Share the generated app URL with others.
+
+👉 Live App: [Churn Prediction Streamlit App](https://churn-prediction-app-3rdtimeacharm.streamlit.app/)
 
 ## 🧰 Tech Stack
 
@@ -71,6 +83,15 @@ Live App: [Churn Prediction Streamlit App](https://churn-prediction-app-3rdtimea
 | `Streamlit` | App deployment |
 | `GitHub` | Source control |
 | `Kaggle` | Dataset source |
+
+## Performance and Limitations
+The model is trained on a relatively small publicly available dataset (~7,000 samples), which limits generalizability to larger or different customer populations.
+Model performance may degrade when applied to data with significantly different distributions or features.
+Real-world deployment should include regular model retraining with up-to-date data to maintain accuracy.
+Predictions are probabilistic and should be supplemented with business context and human judgment.
+The app currently does not handle extreme input cases or invalid data beyond basic validation.
+
+
 
 
 🤝 Collaboration & Feedback
